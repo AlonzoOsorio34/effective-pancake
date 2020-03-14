@@ -1,0 +1,12 @@
+#new shape
+turtle.penup()
+turtle.goto(-440, -340)
+turtle.pendown()
+turtle.color("purple")
+
+turtle.begin_fill()
+turtle.circle(100)
+turtle.end_fill()
+
+turtle.hideturtle()
+turtle.done()
