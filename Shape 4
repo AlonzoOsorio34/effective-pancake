@@ -1,0 +1,12 @@
+#new shape
+turtle.penup()
+turtle.goto(100, 100)
+turtle.pendown()
+turtle.color("yellow")
+
+turtle.begin_fill()
+for i in range(4):
+  turtle.forward(240) # Draw a line
+  turtle.left(90) # Turn left 90 degrees
+turtle.end_fill()
+
