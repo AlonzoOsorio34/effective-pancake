@@ -1,0 +1,69 @@
+import turtle
+turtle.speed(20)
+turtle.pensize(3) # Set pen thickness to 3 pixels
+turtle.penup() # Pull the pen up
+turtle.goto(-120, -120)
+turtle.pendown() # Pull the pen down
+turtle.color("red")
+
+turtle.begin_fill()
+for i in range(4):
+  turtle.forward(200) # Draw a line
+  turtle.left(120) # Turn left 90 degrees
+turtle.end_fill()
+
+turtle.goto(-120, -120)
+turtle.begin_fill()
+for i in range(4):
+  turtle.backward(200)
+  turtle.left(120)
+turtle.end_fill()
+
+#new shape
+turtle.penup()
+turtle.goto(-460, -460)
+turtle.pendown()
+turtle.color("blue")
+
+turtle.begin_fill()
+for i in range(4):
+  turtle.forward(124) # Draw a line
+  turtle.left(80) # Turn left 90 degrees
+turtle.end_fill()
+
+#new shape
+turtle.penup()
+turtle.goto(460, 460)
+turtle.pendown()
+turtle.color("green")
+
+turtle.begin_fill()
+for i in range(4):
+  turtle.forward(200) # Draw a line
+  turtle.left(120) # Turn left 90 degrees
+turtle.end_fill()
+
+#new shape
+turtle.penup()
+turtle.goto(100, 100)
+turtle.pendown()
+turtle.color("yellow")
+
+turtle.begin_fill()
+for i in range(4):
+  turtle.forward(240) # Draw a line
+  turtle.left(90) # Turn left 90 degrees
+turtle.end_fill()
+
+#new shape
+turtle.penup()
+turtle.goto(-440, -340)
+turtle.pendown()
+turtle.color("purple")
+
+turtle.begin_fill()
+turtle.circle(100)
+turtle.end_fill()
+
+turtle.hideturtle()
+turtle.done()
